@@ -28,14 +28,14 @@ namespace AnimalLibrary
     }
     public class Cow : Animal
     {
-        public override void SayHello() => Console.WriteLine("Муу!");
+        public override void SayHello() => Console.WriteLine("Му!");
         public override eFavoriteFood GetFavouriteFood() => eFavoriteFood.Plants;
         public override eClassificationAnimal GetClassificationAnimal() => eClassificationAnimal.Herbivores;
     }
 
     public class Lion : Animal
     {
-        public override void SayHello() => Console.WriteLine("Рррр!");
+        public override void SayHello() => Console.WriteLine("Ррр!");
         public override eFavoriteFood GetFavouriteFood() => eFavoriteFood.Meat;
         public override eClassificationAnimal GetClassificationAnimal() => eClassificationAnimal.Carnivores;
     }
